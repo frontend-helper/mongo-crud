@@ -1,0 +1,22 @@
+[
+    {
+        "name": "fetchTasks",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "updateTask",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "deleteTask",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "addTask",
+        "private": false,
+        "run_as_system": true
+    }
+]

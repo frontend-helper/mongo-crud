@@ -1,0 +1,57 @@
+[
+    {
+        "route": "/tasks",
+        "http_method": "GET",
+        "function_name": "fetchTasks",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": true,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/updateTask",
+        "http_method": "POST",
+        "function_name": "updateTask",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/deleteTask",
+        "http_method": "DELETE",
+        "function_name": "deleteTask",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/addTask",
+        "http_method": "POST",
+        "function_name": "addTask",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/getTasks",
+        "http_method": "GET",
+        "function_name": "fetchTasks",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": true,
+        "disabled": false,
+        "return_type": "JSON"
+    }
+]
